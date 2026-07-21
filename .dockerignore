@@ -1,0 +1,9 @@
+venv/
+.somarx/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+.git/
+*.pdf
+qa_step1_report.json

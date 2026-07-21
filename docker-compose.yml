@@ -1,0 +1,13 @@
+services:
+  somarx:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      TESSERACT_CMD: /usr/bin/tesseract
+    volumes:
+      - somarx-data:/app/.somarx
+    restart: unless-stopped
+
+volumes:
+  somarx-data:

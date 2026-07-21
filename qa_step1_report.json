@@ -1,0 +1,455 @@
+{
+  "ocr_ready": true,
+  "scenarios": [
+    {
+      "id": "teen_history",
+      "label": "청소년·이력 3회 (plan2 기준)",
+      "passed": true,
+      "checks": [
+        {
+          "name": "프로필(이름·신장·연령)",
+          "passed": true,
+          "detail": "name=John Doe C, h=168.0, age=17"
+        },
+        {
+          "name": "BMR 추출",
+          "passed": true,
+          "detail": "value=1339.0"
+        },
+        {
+          "name": "BMR 위젯",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "위상각 추출",
+          "passed": true,
+          "detail": "value=6.1"
+        },
+        {
+          "name": "위상각 리포트",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "위상각 차트",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "트렌드 리포트 생성",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "트렌드 포인트 ≥2",
+          "passed": true,
+          "detail": "points=3, weather=☀️"
+        },
+        {
+          "name": "트렌드 차트",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "히트맵 리포트",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "다차원 분석",
+          "passed": true,
+          "detail": "radar=True, quad=True"
+        },
+        {
+          "name": "처방 카드 HTML",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "주간 플랜 7일",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "주간 플랜 테이블 HTML",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "미션 생성",
+          "passed": true,
+          "detail": "count=3"
+        },
+        {
+          "name": "골드 뱃지 시뮬레이션",
+          "passed": true,
+          "detail": "rate=81%"
+        },
+        {
+          "name": "런칭 배너 HTML",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "리워드 스트립(골드)",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "슬라임 성장",
+          "passed": true,
+          "detail": "progress=69.2%, quests=2/4"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "adult_single",
+      "label": "성인·단일 측정",
+      "passed": true,
+      "checks": [
+        {
+          "name": "프로필(이름·신장·연령)",
+          "passed": true,
+          "detail": "name=김민수, h=175.0, age=32"
+        },
+        {
+          "name": "BMR 추출",
+          "passed": true,
+          "detail": "value=1580.0"
+        },
+        {
+          "name": "BMR 위젯",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "위상각 추출",
+          "passed": true,
+          "detail": "value=5.8"
+        },
+        {
+          "name": "위상각 리포트",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "히트맵 리포트",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "다차원 분석",
+          "passed": true,
+          "detail": "radar=True, quad=True"
+        },
+        {
+          "name": "처방 카드 HTML",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "주간 플랜 7일",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "주간 플랜 테이블 HTML",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "미션 생성",
+          "passed": true,
+          "detail": "count=3"
+        },
+        {
+          "name": "골드 뱃지 시뮬레이션",
+          "passed": true,
+          "detail": "rate=81%"
+        },
+        {
+          "name": "런칭 배너 HTML",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "리워드 스트립(골드)",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "슬라임 성장",
+          "passed": true,
+          "detail": "progress=63.9%, quests=1/4"
+        }
+      ],
+      "warnings": [
+        "위상각 이력은 있으나 차트 포인트 2개 미만",
+        "이력 데이터 없음 — 트렌드·위상각 그래프 단일 포인트만 표시",
+        "부위별 근육량 미추출 — 히트맵 빈 상태 가능"
+      ]
+    },
+    {
+      "id": "female_low_water",
+      "label": "여성·체수분 부족",
+      "passed": true,
+      "checks": [
+        {
+          "name": "프로필(이름·신장·연령)",
+          "passed": true,
+          "detail": "name=이서연, h=162.0, age=28"
+        },
+        {
+          "name": "BMR 추출",
+          "passed": true,
+          "detail": "value=1210.0"
+        },
+        {
+          "name": "BMR 위젯",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "위상각 추출",
+          "passed": true,
+          "detail": "value=4.9"
+        },
+        {
+          "name": "위상각 리포트",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "히트맵 리포트",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "다차원 분석",
+          "passed": true,
+          "detail": "radar=True, quad=True"
+        },
+        {
+          "name": "처방 카드 HTML",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "주간 플랜 7일",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "주간 플랜 테이블 HTML",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "미션 생성",
+          "passed": true,
+          "detail": "count=3"
+        },
+        {
+          "name": "골드 뱃지 시뮬레이션",
+          "passed": true,
+          "detail": "rate=81%"
+        },
+        {
+          "name": "런칭 배너 HTML",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "리워드 스트립(골드)",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "슬라임 성장",
+          "passed": true,
+          "detail": "progress=61.8%, quests=1/5"
+        }
+      ],
+      "warnings": [
+        "위상각 이력은 있으나 차트 포인트 2개 미만",
+        "이력 데이터 없음 — 트렌드·위상각 그래프 단일 포인트만 표시",
+        "부위별 근육량 미추출 — 히트맵 빈 상태 가능"
+      ]
+    },
+    {
+      "id": "minimal",
+      "label": "최소 데이터",
+      "passed": true,
+      "checks": [
+        {
+          "name": "프로필(이름·신장·연령)",
+          "passed": true,
+          "detail": "name=테스트, h=170.0, age=25"
+        },
+        {
+          "name": "BMR 추출",
+          "passed": false,
+          "detail": "value=None"
+        },
+        {
+          "name": "히트맵 리포트",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "처방 카드 HTML",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "주간 플랜 7일",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "주간 플랜 테이블 HTML",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "미션 생성",
+          "passed": true,
+          "detail": "count=3"
+        },
+        {
+          "name": "골드 뱃지 시뮬레이션",
+          "passed": true,
+          "detail": "rate=81%"
+        },
+        {
+          "name": "런칭 배너 HTML",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "리워드 스트립(골드)",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "슬라임 성장",
+          "passed": true,
+          "detail": "progress=64.2%, quests=1/3"
+        }
+      ],
+      "warnings": [
+        "최소 데이터 시나리오 — BMR/위상각/다차원 미표시는 정상",
+        "이력 데이터 없음 — 트렌드·위상각 그래프 단일 포인트만 표시",
+        "부위별 근육량 미추출 — 히트맵 빈 상태 가능"
+      ]
+    },
+    {
+      "id": "declining",
+      "label": "근육↓·체지방↑ (비 날씨)",
+      "passed": true,
+      "checks": [
+        {
+          "name": "프로필(이름·신장·연령)",
+          "passed": true,
+          "detail": "name=박지훈, h=172.0, age=19"
+        },
+        {
+          "name": "BMR 추출",
+          "passed": true,
+          "detail": "value=1400.0"
+        },
+        {
+          "name": "BMR 위젯",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "위상각 추출",
+          "passed": true,
+          "detail": "value=5.2"
+        },
+        {
+          "name": "위상각 리포트",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "위상각 차트",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "트렌드 리포트 생성",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "트렌드 포인트 ≥2",
+          "passed": true,
+          "detail": "points=3, weather=☔"
+        },
+        {
+          "name": "트렌드 차트",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "히트맵 리포트",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "다차원 분석",
+          "passed": true,
+          "detail": "radar=True, quad=True"
+        },
+        {
+          "name": "처방 카드 HTML",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "주간 플랜 7일",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "주간 플랜 테이블 HTML",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "미션 생성",
+          "passed": true,
+          "detail": "count=3"
+        },
+        {
+          "name": "골드 뱃지 시뮬레이션",
+          "passed": true,
+          "detail": "rate=81%"
+        },
+        {
+          "name": "런칭 배너 HTML",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "리워드 스트립(골드)",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "슬라임 성장",
+          "passed": true,
+          "detail": "progress=73.1%, quests=1/4"
+        }
+      ],
+      "warnings": [
+        "부위별 근육량 미추출 — 히트맵 빈 상태 가능"
+      ]
+    }
+  ],
+  "pdf_count": 2
+}
